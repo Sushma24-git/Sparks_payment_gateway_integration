@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../material/img3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image {
+    background: url("../material/success.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+}
+
+.payment-success {
+    color: rgb(227, 252, 251);
+}
+
+.redirecting {
+    color: rgb(97, 244, 255);
+    text-align: center;
+}
